@@ -1,5 +1,3 @@
-def tdfio_open (filename):
-    tid = fits.open(filename)
+def tdfio_open (filename,mode='update'):
+    tid = fits.open(filename,mode=mode)
     return tid
-
-print ("tdfo_open loaded")

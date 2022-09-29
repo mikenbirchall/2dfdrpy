@@ -1,2 +1,3 @@
 def tdfio_tlmap_write(tid,tlmA):
-    print("NOT implemented yet")
+    tid[0].data=tlmA
+    return 0
